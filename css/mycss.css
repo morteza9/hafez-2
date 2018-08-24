@@ -1,0 +1,211 @@
+
+  body{
+    background-color: #40E0D0;
+}
+
+
+
+
+
+  
+  @font-face{
+      font-family: 'Badr';
+      src: url('../font1/Badr.eot') format('eot'),
+        url('../font1/Badr.woff') format('woff'),
+        url('../font1/Badr.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+  .badr1{
+      font-family:'Badr';
+      font-weight: 900;
+  }
+
+
+
+  @font-face {
+    font-family: 'Bardiya';
+    src: url('../font1/Bardiya.eot') format('eot'),  
+         url('../font1/Bardiya.woff') format('woff'),
+         url('../font1/Bardiya.ttf') format('truetype');
+    font-style:normal;
+    font-weight:normal;
+  }
+  .bardiya1{
+    font-family: 'Baran';
+   
+}
+
+
+@font-face {
+    font-family: 'Baran';
+    src: url('../font1/Baran.eot') format('eot'),  
+         url('../font1/Baran.woff') format('woff'),
+         url('../font1/Baran.ttf') format('truetype');
+    font-style:normal;
+    font-weight:normal;
+  }
+  .baran1{
+    font-family: 'Baran';
+    
+}
+
+@font-face {
+    font-family: 'Compset';
+    src: url('../font1/Compset.eot') format('eot'),  
+         url('../font1/Compset.woff') format('woff'),
+         url('../font1/Compset.ttf') format('truetype');
+    font-style:normal;
+    font-weight:normal;
+  }
+  .compset1{
+    font-family: 'Compset';
+  
+}
+
+@font-face {
+    font-family: 'Davat';
+    src: url('../font1/Davat.eot') format('eot'),  
+         url('../font1/Davat.woff') format('woff'),
+         url('../font1/Davat.ttf') format('truetype');
+    font-style:normal;
+    font-weight:normal;
+  }
+  .davat1{
+    font-family: 'Davat';
+  
+}
+
+@font-face {
+    font-family: 'Zar';
+    src: url('../font1/Zar.eot') format('eot'),  
+         url('../font1/Zar.woff') format('woff'),
+         url('../font1/Zar.ttf') format('truetype');
+    font-style:normal;
+    font-weight:normal;
+  }
+  .zar1{
+    font-family: 'Zar';
+   
+}
+
+@font-face {
+    font-family: 'TitrBold';
+    src: url('../font1/TitrBold.eot') format('eot'),  
+         url('../font1/TitrBold.woff') format('woff'),
+         url('../font1/TitrBold.ttf') format('truetype');
+    font-style:normal;
+    font-weight:normal;
+  }
+  .titrbold1{
+    font-family: 'TitrBold';
+  
+}
+
+@font-face {
+    font-family: 'Yekan';
+    src: url('../font1/Yekan.eot') format('eot'),  
+         url('../font1/Yekan.woff') format('woff'),
+         url('../font1/Yekan.ttf') format('truetype');
+    font-style:normal;
+    font-weight:normal;
+  }
+  .yekan1{
+    font-family: 'Yekan';
+	font-weight: 300;
+}
+@font-face {
+    font-family: 'iransans';
+    src:url('../font1/i') format('truetype');
+    font-style:normal;
+    font-weight:normal;
+  }
+  .iransn{
+    font-family: 'iransans';
+	font-weight: 300;
+}
+
+
+
+
+
+
+nav div a img{
+    max-height: 20vh;
+    width: 30vw;
+    height: 10vh;
+ 
+}
+
+
+.english-text{
+    text-align:left;
+}
+
+
+
+.grdient-01{
+background-image: linear-gradient( 135deg, #CE9FFC 10%, #7367F0 100%);
+}
+.grdient-02{
+
+    background: #40E0D0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+
+/********************************/
+/*mori class for responsive text */
+
+/********************************/
+.vm1{
+    font-size:1.5em;
+}
+
+@media only screen and (min-width: 600px) {
+    *{
+        font-size: 34px;
+    }
+}@media only screen and (max-width: 600px) {
+    *{
+        font-size: 28px;
+    }
+}
+.f10{
+    font-size: 10px;
+}
+.f20{
+    font-size: 20px;
+}
+.f30{
+    font-size: 30px;
+}
+.f40{
+    font-size: 40px;
+}
+.vm1_5{
+   
+    font-size:calc(12px + 1.5vw);
+}
+.vm2{
+    font-size:calc(12px + 2vw);
+}
+.vm3{
+    font-size:calc(12px + 3vw);
+}
+.vm4{
+    font-size:calc(12px + 4vw);
+}
+.vm5{
+    font-size:calc(12px + 5vw);
+}
+/********************************/
+/********************************/
+/********************************/
+
+
+#fall{
+    line-height: 65%;
+}
