@@ -1,4 +1,8 @@
 
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+        
 
 /***********************crate database db_mori_hafez******************************************/
 var Database_Name = 'hafez21';  
@@ -50,7 +54,7 @@ tx.executeSql('INSERT INTO book72 ( poem) VALUES ("دوش از مسجد سوی �
 function getfall(){
 
 var uu = Math.floor((Math.random() * 10) );
-alert(uu);
+
 db_mori_hafez.transaction(function (tx) { 
 
     tx.executeSql('SELECT * FROM book72', [], function (tx, results) {
