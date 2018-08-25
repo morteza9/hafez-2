@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "ir.sepidit.mora"
+    versionCode = "1"
+    version     = "1.0.0" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>Hafez</name>
+
+  <description>
+    sdk-23
+  </description>
+
+  <author href="https://sepidit.ir" email="15mahtabi@gmail.com">
+      morteza shabani poura
+  </author>
+ <icon src="src/logo.png" />
+
+<platform name="android" />
+ 
+<preference name="android-minSdkVersion" value="23" />
+ 
+<preference name="android-targetSdkVersion" value="23" /> 
+
+</widget>
